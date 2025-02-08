@@ -2,7 +2,7 @@
 int main(){
     int x,y;
     scanf(%d %d,&x,&y);
-    int result=a | b;
-    printf("%d",result);
+    int result=x | y;
+    printf("\n%d",result);
     return 0; 
 }
