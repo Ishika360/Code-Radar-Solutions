@@ -2,7 +2,7 @@
 int main(){
     int x,y;
     scanf("%d %d",&x,&y);
-    if(x>=18){
+    if(x>18){
         printf("Eligible");
     }
     else{
