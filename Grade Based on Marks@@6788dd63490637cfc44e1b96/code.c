@@ -12,8 +12,7 @@ int main(){
     }
     else if(70<x<=60){
         printf("D\n");
-
-    }
+        }
     else{
         printf("F\n");
     }
