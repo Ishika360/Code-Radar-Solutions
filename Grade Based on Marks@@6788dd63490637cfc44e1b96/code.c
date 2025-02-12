@@ -15,7 +15,7 @@ int main(){
 
     }
     else{
-        printf("F");
+        printf("F\n");
     }
     return 0;
 }
