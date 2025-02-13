@@ -20,6 +20,7 @@ int main(){
         else{
             printf("%d",x/y);
         }
+    }
     else{
         printf("error");
     }    
