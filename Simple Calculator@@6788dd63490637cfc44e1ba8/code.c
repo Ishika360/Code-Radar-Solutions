@@ -3,17 +3,17 @@ int main(){
     int x,y;
     char ch;
     scanf("%d %d %c, &x, &y, &ch");
-    if(ch='+'){
+    if(ch=='+'){
         printf("%d\n",x+y);
     }
-    else if(ch='-'){
+    else if(ch=='-'){
         printf("%d\n",x-y);
 
     }
     else if(ch=='*'){
         printf("%d\n",x*y);
     }
-    else if(ch='/'){
+    else if(ch=='/'){
         if(y==0){
             printf("error\n");
         }
