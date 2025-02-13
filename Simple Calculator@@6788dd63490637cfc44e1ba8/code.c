@@ -2,7 +2,8 @@
 int main(){
     int x,y;
     char ch;
-    scanf("%d %d %d ,&x,&y,&z");
+    switch (ch){
+    scanf("%d %d %d ,&x,&y,&ch");
     case '+';
     printf("%d",x+y);
     break:
@@ -13,7 +14,15 @@ int main(){
     printf("%d",x*y);
     break;
     case '/';
-    printf("%d",x/y);
+    if(y==0){
+        prinf("error");
+    }
+    else{   
+        printf("%d",x/y);
+    }
+    default:
+    printf("error\n");
     break;
+    }
     return 0;
 }
