@@ -18,7 +18,7 @@ int main(){
             printf("%d\n",x/y);
         }
     
-    else{
+    else if{
         printf("error");
     }    
     return 0;
