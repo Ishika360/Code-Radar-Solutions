@@ -3,10 +3,10 @@ int main(){
     int x,y;
     char ch;
     switch (ch){
-    scanf("%d %d %d ,&x,&y,&ch");
-    case '+';
+    scanf("%d %d %c ,&x,&y,&ch");
+    case '+':
     printf("%d",x+y);
-    break:
+    break;
     case '-':
     printf("%d",x-y);
     break;
