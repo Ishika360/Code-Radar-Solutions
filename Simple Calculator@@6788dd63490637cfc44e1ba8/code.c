@@ -1,29 +1,24 @@
-#include<stdio.h>
-int main(){
-    int x,y;
-    char ch;
-    scanf("%d %d %c, &x, &y, &ch");
-    if(ch=='+'){
-        printf("%d\n",x+y);
+switch (ch){
+    case '+':
+    printf("%d\n",x+y);
+    break;
+    case '-':
+    printf("%d\n",x-y);
+    break;
+    case '*':
+    printf("%d\n",x*y);
+    break;
+    case '/':
+    if(y==0){
+        prinf("error\n");
     }
-    else if(ch=='-'){
-        printf("%d\n",x-y);
-
+    else{   
+        printf("%d\n",x/y);
     }
-    else if(ch=='*'){
-        printf("%d\n",x*y);
+    break;
+    default:
+    printf("error\n");
+    break;
     }
-    else if(ch=='/'){
-        if(y==0){
-        printf("error");
-        }
-        else{
-            printf("%d",x/y);
-        }
-    }
-    
-    else {
-        printf("error");
-    }    
     return 0;
-    }
+}
