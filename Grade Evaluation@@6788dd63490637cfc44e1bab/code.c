@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     char ch='A','B','C','D','F';
+    scanf("%c",&ch);
     if (ch=='A'){
         printf("Excellent");
     }
