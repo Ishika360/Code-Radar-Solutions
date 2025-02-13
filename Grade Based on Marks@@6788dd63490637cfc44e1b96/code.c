@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int x;
-    if(x>=90){
+    if(x=>90){
         printf("A");
     }
     else if(90<x<=80){
