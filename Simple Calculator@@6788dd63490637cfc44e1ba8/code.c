@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main(){
-    int x,y,z ;
+    int x,y;
+    char ch;
     scanf("%d %d %d ,&x,&y,&z");
-    case '+':
+    case '+';
     printf("%d",x+y);
-    break;
+    break:
     case '-':
     printf("%d",x-y);
     break;
