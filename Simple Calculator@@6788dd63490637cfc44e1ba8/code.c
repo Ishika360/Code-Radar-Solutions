@@ -13,12 +13,16 @@ int main(){
     else if(ch=='*'){
         printf("%d\n",x*y);
     }
-    else if(ch=='/' && y!=0){
-        
-            printf("%d\n",x/y);
+    else if(ch=='/'){
+        if(ch==0){
+        printf("error");
         }
+        else{
+            printf("%d",x/y);
+        }
+    }
     
-    else if{
+    else {
         printf("error");
     }    
     return 0;
