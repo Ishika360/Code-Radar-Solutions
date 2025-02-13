@@ -2,23 +2,23 @@
 int main(){
     int x,y;
     char ch;
+    scanf("%d %d %c,&x,&y,&ch");
     switch (ch){
-    scanf("%d %d %c ,&x,&y,&ch");
     case '+':
-    printf("%d",x+y);
+    printf("%d\n",x+y);
     break;
     case '-':
-    printf("%d",x-y);
+    printf("%d\n",x-y);
     break;
-    case '*';
-    printf("%d",x*y);
+    case '*':
+    printf("%d\n",x*y);
     break;
-    case '/';
+    case '/':
     if(y==0){
         prinf("error");
     }
     else{   
-        printf("%d",x/y);
+        printf("%d\n",x/y);
     }
     default:
     printf("error\n");
