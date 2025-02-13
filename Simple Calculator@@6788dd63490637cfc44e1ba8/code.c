@@ -20,6 +20,7 @@ int main(){
     else{   
         printf("%d\n",x/y);
     }
+    break;
     default:
     printf("error\n");
     break;
