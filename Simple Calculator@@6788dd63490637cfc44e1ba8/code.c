@@ -13,11 +13,8 @@ int main(){
     else if(ch=='*'){
         printf("%d\n",x*y);
     }
-    else if(ch=='/'){
-        if(y==0){
-            printf("error\n");
-        }
-        else{
+    else if(ch=='/' && y!=0){
+        
             printf("%d\n",x/y);
         }
     }
