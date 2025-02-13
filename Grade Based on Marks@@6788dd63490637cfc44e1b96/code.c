@@ -4,13 +4,13 @@ int main(){
     if(x>=90){
         printf("A");
     }
-    else if(90<x<=80){
+    else if(x>=80){
         printf("B\n");
     }
-    else if(80<x<=70){
+    else if(x>=70){
         printf("C\n");
     }
-    else if(70<x<=60){
+    else if(x>=60){
         printf("D\n");
         }
     else{
