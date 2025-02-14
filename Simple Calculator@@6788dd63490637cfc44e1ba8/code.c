@@ -18,7 +18,5 @@ switch (ch){
     break;
     default:
     printf("error\n");
-    break;
-    }
     return 0;
 }
