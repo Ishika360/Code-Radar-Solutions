@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main(){
-    int N,x,y;
+    int N;
     scanf("%d",&N);
-    printf("%d * %d =%d",x,y);
+    for(int i=1;i<=10;i++){
+        printf("%d * %d = %d",N,i,N*i);
+    }
     return 0;
 }
