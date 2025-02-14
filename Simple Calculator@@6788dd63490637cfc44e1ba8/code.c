@@ -1,4 +1,8 @@
-switch (ch){
+#include<stdio.h>
+int main(){
+    int x,y,z
+    scanf("%d %d %d",&x,&y,&z)
+switch(z){
     case '+':
     printf("%d\n",x+y);
     break;
@@ -18,5 +22,6 @@ switch (ch){
     break;
     default:
     printf("error\n");
+}
     return 0;
 }
