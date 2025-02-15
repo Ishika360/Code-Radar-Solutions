@@ -8,12 +8,12 @@ int main(){
             break;
 
         }
-    if(i%2==0){
+        }    
+        if(i%2==0){
         printf("Not Prime");
     }    
     else{
         printf("Prime");
-    }
     }
     return 0;
 }
