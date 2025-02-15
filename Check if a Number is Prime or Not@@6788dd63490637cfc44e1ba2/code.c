@@ -6,9 +6,7 @@ int main(){
         if(num%i==0){
             x=1;
             break;
-
-        }
-        }    
+        }  
         if(i%2==0){
         printf("Not Prime");
     }    
@@ -16,4 +14,5 @@ int main(){
         printf("Prime");
     }
     return 0;
+}
 }
