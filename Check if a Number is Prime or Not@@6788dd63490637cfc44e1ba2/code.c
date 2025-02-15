@@ -7,7 +7,7 @@ int main(){
             x=1;
             break;
         }  
-    if(i%2==0){
+    if(x==0){
         printf("Prime");
     }    
     else{
