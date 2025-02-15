@@ -4,6 +4,7 @@ int main(){
     scanf("%d",&N);
     while(x<=N){
         printf("%d ",x);
+        x++;
     }
     return 0;
 }
