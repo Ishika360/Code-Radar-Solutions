@@ -3,7 +3,7 @@ int main(){
     int x=1,y,N;
     while(x<=N){
         y=1;
-        while(y<=x){
+        while(y<=N){
             printf("* ");
             y++;
         }
