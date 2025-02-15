@@ -5,7 +5,7 @@ int main(){
     while(x<=N){
         y=1;
         while(y<=x){
-            printf("%d %c",x);
+            printf("%d",x);
             y++;
         }
         printf("\n");
