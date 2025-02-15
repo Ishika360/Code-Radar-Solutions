@@ -8,7 +8,7 @@ int main(){
             printf("*");
             y++;
         }
-        printf("\n");
+        printf(" \n");
         x++;
     }
 }
