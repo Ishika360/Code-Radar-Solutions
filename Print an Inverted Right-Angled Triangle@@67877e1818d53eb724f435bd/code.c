@@ -1,10 +1,16 @@
 #include<stdio.h>
 int main(){
-    int N;
+    int N,x=1,y;
     scanf("%d",&N);
-    for(i=1;i<=N;i++){
-        printf("*");
+    while(x<=N){
+        y=x;
+        while(y<=N){
+            printf("* ");
+            y++;
+        }
+        printf("\n");
+        x++;
     }
-    printf("\n");
     return 0;
+
 }
