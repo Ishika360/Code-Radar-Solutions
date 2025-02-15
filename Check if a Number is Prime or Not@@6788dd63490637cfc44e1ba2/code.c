@@ -7,12 +7,13 @@ int main(){
             x=1;
             break;
         }  
+    }
     if(x==0){
         printf("Prime");
     }    
     else{
         printf("Not Prime");
     }
-    return 0;
     }
+    return 0;
 }
